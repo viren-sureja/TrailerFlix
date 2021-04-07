@@ -1,0 +1,40 @@
+.row {
+	margin-left: 20px;
+	color: white;
+}
+
+.row__posters {
+	display: flex;
+
+	/* to fix the y-axis while movement through x-axis */
+	overflow-y: hidden;
+	overflow-x: scroll;
+	/* to avoid crop */
+	padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+	display: none;
+}
+
+.row__poster {
+	/* will maintain the aspect ratio */
+	object-fit: contain;
+	width: 100%;
+	max-width: 100px;
+	margin-right: 10px;
+	transition: transform 450ms;
+}
+
+.row__poster:hover {
+	/* zoom when hover */
+	transform: scale(1.08);
+}
+
+.row__posterLarge {
+	max-height: 250px;
+}
+
+.row__posterLarge:hover {
+	transform: scale(1.09);
+}
