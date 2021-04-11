@@ -12,9 +12,11 @@
 
 .nav__black {
 	background-color: #111;
+	opacity: 0.9;
 }
 
 .nav__logo {
+	top: 12px;
 	position: fixed;
 	left: 20px;
 	width: 80px;
@@ -25,4 +27,11 @@
 	right: 20px;
 	width: 30px;
 	object-fit: contain;
+}
+.nav__logo:hover {
+	cursor: pointer;
+}
+
+.nav__avatar:hover {
+	cursor: pointer;
 }
