@@ -1,8 +1,9 @@
 .loginScreen {
 	position: relative;
 	height: 100%;
-	background: url('https://hcdevilsadvocate.com/wp-content/uploads/2019/01/netflix-background-9-900x506.jpg')
-		center no-repeat;
+	/* background: url('https://hcdevilsadvocate.com/wp-content/uploads/2019/01/netflix-background-9-900x506.jpg')
+		center no-repeat; */
+
 	background-size: cover;
 }
 
@@ -69,6 +70,7 @@
 .loginScreen__body > h3 {
 	font-size: 1.3rem;
 	font-weight: 400;
+	margin-bottom: 20px;
 }
 
 .loginScreen__input > form > input {

@@ -1,16 +1,25 @@
 import React, { useState } from 'react';
 import './LoginScreen.css';
 import SignUpScreen from './SignUpScreen';
+import netflix__logo from '../images/netflix__logo.png';
+import netflix__loginScreen__backGround from '../images/loginScreen__background.jpg';
 
 function LoginScreen() {
 	const [signIn, setSignIn] = useState(false);
 
 	return (
-		<div className="loginScreen">
+		<div
+			className="loginScreen"
+			style={{
+				background: `url(${netflix__loginScreen__backGround})
+		center no-repeat`,
+			}}
+		>
 			<div className="loginScreen__background">
 				<img
-					src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
+					// src="https://assets.stickpng.com/images/580b57fcd9996e24bc43c529.png"
 					// src="../images/netflix__logo.png"
+					src={netflix__logo}
 					alt="loginScreen"
 					className="loginScreen__logo"
 				/>
