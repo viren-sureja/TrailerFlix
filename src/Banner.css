@@ -1,16 +1,17 @@
 .banner {
 	color: white;
+	height: 483px;
 	object-fit: contain;
-	height: 448px;
 }
 
 .banner__contents {
 	margin-left: 30px;
 	padding-top: 140px;
-	height: 190px;
+	height: 225px;
 }
 
 .banner__title {
+	max-width: 35%;
 	font-size: 3rem;
 	font-weight: 800;
 	padding-bottom: 0.3rem;
