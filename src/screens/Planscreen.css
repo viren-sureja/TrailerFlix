@@ -1,0 +1,46 @@
+.planScreen {
+	padding: 10px;
+}
+
+.planScreen > p {
+	font-size: 1rem;
+	opacity: 0.8;
+}
+
+.planScreen > p:hover {
+	font-weight: bolder;
+	opacity: 1;
+}
+
+.planScreen__plan {
+	display: flex;
+	justify-content: space-between;
+	padding: 10px;
+	margin-top: 20px;
+	opacity: 0.7;
+}
+
+.planScreen__plan:hover {
+	opacity: 1;
+	/* cursor: pointer; */
+}
+
+.planScreen__plan > button {
+	color: white;
+	font-size: 1rem;
+	font-weight: 600;
+
+	background-color: #e50914;
+	border: none;
+	border-radius: 2px;
+	padding: 10px 20px;
+	cursor: pointer;
+}
+
+.planScreen__info > h5 {
+	font-size: 1.2rem;
+}
+
+#planScreen__currenPackage {
+	background-color: gray;
+}
